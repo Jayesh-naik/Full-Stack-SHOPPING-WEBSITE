@@ -114,3 +114,12 @@ Before deploying, ensure both the build and backend server start cleanly with yo
 - Update `CLIENT_ORIGIN` when deploying the front-end to a different domain.
 - Replace the placeholder JWT secret with a long, randomly generated string.
 - For production, consider using HTTPS and secure cookies for token storage.
+
+<img width="943" height="448" alt="image" src="https://github.com/user-attachments/assets/92423195-9b82-4739-acea-2511c825650e" />
+<img width="937" height="449" alt="image" src="https://github.com/user-attachments/assets/f5fb0d40-84ff-4fd9-9249-5c8244e5d010" />
+<img width="922" height="439" alt="image" src="https://github.com/user-attachments/assets/163010c9-a5cc-4be0-946c-94fbdedc54e7" />
+<img width="926" height="431" alt="image" src="https://github.com/user-attachments/assets/a42c427a-61cc-464a-89cf-
+792275421bd4" />
+<img width="531" height="422" alt="image" src="https://github.com/user-attachments/assets/c58ccd99-af7b-4683-bf01-f834eaf6763c" />
+
+
