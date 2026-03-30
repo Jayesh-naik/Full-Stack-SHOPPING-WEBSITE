@@ -2,6 +2,7 @@
 
 # dependencies
 node_modules/
+.env
 server/node_modules/
 server/.env
 server/.env.local
