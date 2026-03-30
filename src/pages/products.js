@@ -21,7 +21,7 @@ export const Products = () => {
 
         {products.map((product) => (
             <div className="p-4 shadow-md rounded-2xl flex flex-col gap-2 justify-center items-center">
-                <img src={product.image} alt={item.name} className="w-full h-48 object-contain mb-4"></img>
+                <img src={product.image} alt={product.name} className="w-full h-48 object-contain mb-4"></img>
                 <div>{product.title}</div>
                 <div>{product.price}$</div>
                 <Link to={`/products/${product.id}`}><button className="border shadow-md pb-2 pt-2 pl-8 pr-8 rounded-2xl transition duration-200 hover:scale-105 hover:shadow-lg">Buy</button></Link>               
