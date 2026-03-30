@@ -1,4 +1,4 @@
-import { useParams, useNavigate,Link } from "react-router-dom";
+import { useParams, useNavigate} from "react-router-dom";
 import { useEffect, useState } from "react";
 
 export const ProductDetails = () => {
@@ -11,7 +11,7 @@ export const ProductDetails = () => {
 
     fetch(`https://fakestoreapi.com/products/${id}`).then(res => res.json()).then(data => setProduct(data));
 
-  }, []);
+  }, [id]);
 
   if (!product) return <div>Loading...</div>
 
@@ -32,7 +32,7 @@ export const ProductDetails = () => {
 
   return (
     <div className="bg-blue-50  flex h-90 mt-40 ml-40 mr-40 justify-center items-center shadow-lg rounded-2xl">
-      <img src={product.image} className="w-full h-72 object-contain mb-4"></img>
+      <img src={product.image} alt={product.name} className="w-full h-72 object-contain mb-4"></img>
       <div className="p-8 flex flex-col gap-4">
         <div className="text-2xl text-blue-800">{product.title}</div>
         <div className="max-w-6xl">{product.description}</div>
