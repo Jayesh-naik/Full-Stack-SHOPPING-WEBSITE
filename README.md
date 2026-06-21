@@ -36,6 +36,7 @@ react-ecommerce/
 - Node.js 18+ and npm 9+
 - A MongoDB connection string (Atlas or self-hosted)
 
+
 ## 🔐 Environment variables
 
 ### Backend (`server/.env`)
